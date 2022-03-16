@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  /* font-size: 22px; */
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  background-color:  #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  top: 0;
+
+}
+.header-right a{
+color: #7d6e6e;
+font-size: 18px;
+}
+.header-right a:hover{
+ color: black;
+ font-weight: bold;
+}
+
+.header-left{
+  float: left
+}
+
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.header-right{
+  float: right;
+  padding: 10px;
+  margin: 20px 0;
+  
+}
+.header-right a{
+  margin-right: 10px;
+}
+.kartu{
+  width: 50%;
+  float: left;
+  padding: 50px;
+  position: relative;
+
+}
+.ha1{
+  font-size: 48px;
+  line-height: 56px;
+  
+}
+.ha2{
+  font-size: 24px;
+}
+.gm1{
+  width: 400px;
+}
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+ 
+}
+.consul{
+  background-color: #458FF6;
+  border-radius:30px ;
+  
+}
+.menu-icon {
+  display: none;
+  color: #7d6e6e;
+  float: right;
+  font-size: 35px;
+  padding: 35px 0;
+  display: none;
+}
+
+/* Masih Berantakan Awal */
+.item{
+  float: left;
+  width: 33.33333333333333%;
+}
+
+.anak-icon{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  width: 250px;
+  position:relative;
+}
+.item p{
+  position: absolute;
+  top: 115%;
+  color: rgb(75, 66, 66);
+  width: 17%;
+  padding: 10px;
+}
+.item h1{
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  color:black;
+  font-size:24px ;
+  padding: 10px;
+ 
+}
+/* Masih Berantakan akhir */
+.learn{
+  /* background-color: #458FF6; */
+  border-radius:30px  ;
+  color:#458FF6;
+  border: 2px solid #458FF6;
+
+  
+}
+footer{
+  height: 5px;
+  float: right;
+  width: 100%;
+  /* background-color: #67C3F3; */
+  padding: 50px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+
+.logo2 {
+width: 400px;
+  
+}
+
+.footer-list {
+  float: right;
+}
+.footer-copy{
+font-size: 12px;
+  text-align: center;
+
+}
